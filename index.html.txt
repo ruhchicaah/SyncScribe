@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyncScribe - Smart Note-Taking</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffeef7;
+            color: #444;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: #fce4ec;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            border: 3px solid #ffccf9;
+        }
+        h1 {
+            color: #ff80bf;
+        }
+        p {
+            color: #5d5a8a;
+        }
+        .cta-button {
+            background-color: #b3e0ff;
+            color: #444;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #99c2ff;
+        }
+        .navbar {
+            background-color: #ffccf9;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #5d5a8a;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .features {
+            margin-top: 20px;
+        }
+        .feature-item {
+            background: #fff;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background: #ffccf9;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Features</a>
+        <a href="#">Sign Up</a>
+        <a href="#">Contact</a>
+    </div>
+    <div class="container">
+        <h1>Welcome to SyncScribe ✨</h1>
+        <p>The cutest note-taking app for students and professionals! Organize, collaborate, and stay ahead!</p>
+        <button class="cta-button">Get Started 💖</button>
+    </div>
+    <div class="features">
+        <div class="feature-item">🌸 AI-Powered Notes Organization</div>
+        <div class="feature-item">💖 Cute and Pastel-Themed Interface</div>
+        <div class="feature-item">📅 Smart Reminders & Scheduling</div>
+        <div class="feature-item">📌 Sync Across All Devices</div>
+    </div>
+    <footer>
+        <p>Contact us at: support@syncscribe.com | Follow us on socials 💕</p>
+    </footer>
+</body>
+</html>
